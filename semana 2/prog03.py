@@ -1,83 +1,63 @@
-####################################################
-num = 3
+courses = ['History', 'Math', 'Physics', 'CompSci']
+# courses.append('Art')
+#courses.insert(0, 'Art')
+# courses2 = ['Art', 'Education']
+# #courses.insert(0, courses2)
+# courses.extend(courses2)
+# print(len(courses))
+# print(courses[-3])
+# print(courses[0:2])
 
-print(type(num))
+# poped = courses.pop()
+# courses.reverse()
+courses.sort()
+print(courses)
 
-####################################################
-num = 3.1415
+print(courses.index('Math'))
 
-print(type(num))
+for course in courses:
+    print(course)
+########################################################
 
-####################################################
-num = 3
+# # Mutable
+# list_1 = ['History', 'Math', 'Physics', 'CompSci']
+# list_2 = list_1
 
-print(type(num))
+# # print(list_1)
+# # print(list_2)
 
-####################################################
-print(3+2)
+# # # list_1[0] = 'Art'
 
-print(3-1)
-
-print(3*2)
-
-print(3/2)
-
-print(3//2)
-
-print(3 ** 2)
-
-print(3 % 2)
-
-####################################################
-
-print(3*2+1)
-
-print(3*(2+1))
-
-####################################################
-num = 1
-num = num+1
-
-print(num)
-
-####################################################
-num = 1
-num += 10
-
-print(num)
+# # # print(list_1)
+# # # print(list_2)
 
 
-####################################################
-print(abs(-3))
+# # # Immutable
+# # # tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
+# # # tuple_2 = tuple_1
 
-print(round(3.7415))
+# # # print(tuple_1)
+# # # print(tuple_2)
 
-print(round(3.7415, 2))
+# # # tuple_1[0] = 'Art'
 
-print('\n')
+# # # print(tuple_1)
+# # # print(tuple_2)
 
-####################################################
+# # # Sets
+# # cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
 
-print(3 == 2)
-print(3 != 2)
-print(3 > 2)
-print(3 < 2)
-print(3 >= 2)
-print(3 <= 2)
+# # print(cs_courses)
 
-####################################################
 
-num_1 = '100'
-num_2 = '200'
+# # # Empty Lists
+# # empty_list = []
+# # empty_list = list()
 
-print(num_1 + num_2)
+# # # Empty Tuples
+# # empty_tuple = ()
+# # empty_tuple = tuple()
 
-####################################################
-
-num_1 = int(num_1)
-num_2 = int(num_2)
-
-print(num_1 + num_2)
-kcxlkjvlxk
-xlckvjxlkcjvxlkc
-xcvljxclkvjxcçkfçsd
+# # # Empty Sets
+# # empty_set = {} # This isn't right! It's a dict
+# # empty_set = set()
